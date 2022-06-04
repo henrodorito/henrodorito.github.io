@@ -1,20 +1,55 @@
 @charset "utf-8";
-/* CSS for Raptors Web Site */
+/* CSS for Henry Huang's Web Site */
 
 /* This rule will style the main page body */
 
 body {
-    background-color: black;
+    background-color: white;
     color: white;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 0.9em;
 }
 
-#edges {
-    background-color: #FFFFFF;
+#final {
+    background-color: rgb(234, 234, 234);
+    border-color: rgb(66, 53, 254);
+    border-width: 5px;
+    margin-bottom: 20%;
     color: black;
-    margin: 25px;
 }
+
+#cover {
+    background-image: url(../sunset.jpg);
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+#name {
+    text-align: center;
+    color: white;
+    font-family: "Brush Script MT", cursive;
+    font-size: 58px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    line-height: 26.4px;
+    /* background-color: burlywood; */
+}
+
+#motto {
+    font-size: 32px;
+    font-weight: 200;
+}
+
+p {
+    color: black
+    font-weight: lighter;
+}
+
+/* 
 
 p {
     font-family: "Times New Roman", Arial;
@@ -23,24 +58,4 @@ p {
     padding-bottom: 5px;
 }
 
-/* headlines */
-h1, h2, h3 {
-    font-family: "Times New Roman";
-    font-weight: bold;
-}
-
-h1 {
-    color: #43743D;
-    font-size: 1.7em;
-}
-
-h2 {
-    color: #000000;
-    font-size: 1.2em;
-}
-
-h3 {
-    color: #889A9C;
-    font-size: 1em;
-}
-
+*/
